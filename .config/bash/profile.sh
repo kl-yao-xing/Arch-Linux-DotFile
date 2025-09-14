@@ -23,6 +23,4 @@ export LESSHISTFILE="$HOME/.cache/less/lesshst"
 # XDG_FILES
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
-
-# pluseaudio
-export PULSE_COOKIE="$HOME/.config/pulse/cookie"
+export XDG_RUNTIME_HOME="$HOME/usr/1000"
