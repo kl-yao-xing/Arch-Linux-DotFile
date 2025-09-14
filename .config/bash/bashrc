@@ -1,0 +1,29 @@
+#
+# ~/.config/bash/bashrc (default ~/.bashrc)
+#
+# user config of bash
+#
+# in arch, you should add 
+# # check user bashrc
+# [ -f "$HOME/.comfig/bash/bashrc" ] && . "$HOME/.comfig/bash/bashrc"
+# into "/etc/bash.bashrc" to move "~/.bashrc" to "$HOME/.config/bash/bashrc"
+
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# load alias
+[ -f "$HOME/.config/bash/alias.sh" ] && . "$HOME/.config/bash/alias.sh"
+
+# load profile
+[ -f "$HOME/.config/bash/profile.sh" ] && . "$HOME/.config/bash/profile.sh"
+
+# set dircolors
+[ -f "$HOME/.config/dircolors/dircolors" ] && eval $(dircolors "$HOME/.config/dircolors/dircolors")
+
+# set PS1 (things front of you term like bash default [NAME@HOST PATH]) 
+PS1='[\u@\h \W]\$ '
+
+# set bash-completion
+[ -r "/usr/share/bash-completion/bash_completion" ] && . "/usr/share/bash-completion/bash_completion"
+
