@@ -1,13 +1,13 @@
+#!/bin/bash
 #
 # ~/.config/bash/bashrc (default ~/.bashrc)
 #
 # user config of bash
-#
+
 # in arch, you should add 
 # # check user bashrc
 # [ -f "$HOME/.comfig/bash/bashrc" ] && . "$HOME/.comfig/bash/bashrc"
 # into "/etc/bash.bashrc" to move "~/.bashrc" to "$HOME/.config/bash/bashrc"
-
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
