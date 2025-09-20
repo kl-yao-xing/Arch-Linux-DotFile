@@ -1,4 +1,3 @@
-#### 以下是我的一些配置文件
 ##### 蓝色的可点击文字一般指向[wiki.archlinuxcn.org](https://wiki.archlinuxcn.org)、[man.archlinux.org](https://man.archlinux.org)、本项目其他的README.md
 ###### wiki.arch 里有关于使用arch的几乎一切内容，而 man.arch 里有许多的软件使用手册。
 ###### 我认为这两者是上手arch linux必不可少的。
@@ -10,4 +9,5 @@ sudo pacman -Syu man-db man
 # xxx 可以是某一软件，命令......（你不会用的东西都可以看看有没有）
 man xxx
 ```
+#### 以下是我的一些配置文件
 ##### [bash](.config/bash/README.md)
