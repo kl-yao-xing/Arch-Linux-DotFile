@@ -1,5 +1,5 @@
 #### 以下是我的一些配置文件
-##### 蓝色的可点击文字一般指向[wiki.archlinuxcn.org](wiki.archlinuxcn.org)、[man.archlinux.org](man.archlinux.org)、本项目其他的README.md
+##### 蓝色的可点击文字一般指向[wiki.archlinuxcn.org](https://wiki.archlinuxcn.org)、[man.archlinux.org](https://man.archlinux.org)、本项目其他的README.md
 ###### wiki.arch 里有关于使用arch的几乎一切内容，而 man.arch 里有许多的软件使用手册。
 ###### 我认为这两者是上手arch linux必不可少的。
 ###### 当然，不一定是arch wiki，其他有关linux的wiki大概也是适用与arch的。
