@@ -8,7 +8,7 @@
 # check user bashrc
 [ -f "$HOME/.config/bash/bashrc" ] && . "$HOME/.config/bash/bashrc"
 ```
-##### 具体原理可见[Arch wiki bash](https://wiki.archlinuxcn.org/wiki/Bash#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)[Arch man bash](https://man.archlinux.org/man/bash.1.en)。
+##### 具体原理可见[Arch wiki bash](https://wiki.archlinuxcn.org/wiki/Bash#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6) | [Arch man bash](https://man.archlinux.org/man/bash.1.en)。
 ##### 关于命令行解释器（[shell](https://wiki.archlinuxcn.org/wiki/%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%A7%A3%E9%87%8A%E5%99%A8)），arch上默认使用bash。
 ##### 为了便于管理，我将一些本应直接写在bashrc内的配置分类成了不同的文件，在bashrc中只留有检测并source的命令。
 #### alias.sh
