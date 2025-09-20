@@ -7,7 +7,6 @@
 # envs
 export EDITOR=nvim
 export LANG=zh_CN.UTF-8
-export LANGUAGE=zh_CN:en_US 
 
 # settings
 # bash
@@ -16,6 +15,9 @@ export HISTFILE="$HOME/.cache/bash/bash_history"
 ## history ignore
 export HISTIGNORE=exit:poweroff:river
 export HISTCONTROL=ignoredups
+
+# fcitx5
+export XMODIFIERS=@im=fcitx 
 
 # less
 ## history file
