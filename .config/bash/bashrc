@@ -12,13 +12,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# load alias
+# load alias (some alias)
 [ -f "$HOME/.config/bash/alias.sh" ] && . "$HOME/.config/bash/alias.sh"
 
-# load profile
+# load profile (some system env and settings)
 [ -f "$HOME/.config/bash/profile.sh" ] && . "$HOME/.config/bash/profile.sh"
 
-# set dircolors
+# set dircolors（some apps like “ls” can output different colors of files based on this）
 [ -f "$HOME/.config/dircolors/dircolors" ] && eval $(dircolors "$HOME/.config/dircolors/dircolors")
 
 # set PS1 (things front of you term like bash default [NAME@HOST PATH]) 
